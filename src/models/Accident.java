@@ -9,7 +9,6 @@ public class Accident {
 	private Involucrated involucratedInAccident;
 
 	public Accident(String locationAccident, Date dateAccident, Involucrated involucratedInAccident) {
-		super();
 		this.locationAccident = locationAccident;
 		this.dateAccident = dateAccident;
 		this.involucratedInAccident = involucratedInAccident;

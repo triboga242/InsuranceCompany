@@ -7,7 +7,7 @@ public class Person {
 	private String driverAdress;
 
 	public Person(String driverLicense, String driverName, String driverAdress) {
-		super();
+
 		this.driverLicense = driverLicense;
 		this.driverName = driverName;
 		this.driverAdress = driverAdress;

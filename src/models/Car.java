@@ -3,12 +3,13 @@ package models;
 import java.util.Date;
 
 public class Car {
+	
 	private String carLicense;
 	private String carModel;
 	private Date carYear;
 
 	public Car(String carLicense, String carModel, Date carYear) {
-		super();
+
 		this.carLicense = carLicense;
 		this.carModel = carModel;
 		this.carYear = carYear;
